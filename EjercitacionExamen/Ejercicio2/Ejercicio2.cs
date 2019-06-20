@@ -8,7 +8,7 @@ namespace EjercitacionExamen
         {
             bool flag = true;
             s = s.ToLower();
-            for(int i=0; i<(s.Length+1)/2; i++)
+            for(int i=0; i<(s.Length)/2; i++)
             {
                 if(!(s[i]==s[s.Length-1-i]))
                 {

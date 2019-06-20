@@ -4,15 +4,15 @@ namespace EjercitacionExamen
 {
     public class TextInput
     {
-        protected string input;
+        protected string text;
         public virtual void Add(char c)
         {
-            input += c;
+            text += c;
         }
 
         public string GetValue()
         {
-            return input;
+            return text;
         }
     }
 }

@@ -6,9 +6,9 @@ namespace EjercitacionExamen
     {
         public override void Add(char c)
         {
-            if(Int32.TryParse(c.ToString(), out int aux))
+            if(Int32.TryParse(c.ToString(),out int aux))
             {
-                input += aux.ToString();
+                text += aux.ToString();
             }
         }
     }
